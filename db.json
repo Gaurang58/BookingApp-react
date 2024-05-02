@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "id": "bc96",
+      "name": "Jay Thummar",
+      "email": "jay@gmail.com",
+      "password": "1234",
+      "address": "",
+      "bookings": [
+        {
+          "hotelid": "h1",
+          "hotelname": "Hilton",
+          "location": "london",
+          "price": "From 200$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/440559871.webp?k=4e8faa6ca857ad337685068976b9fa68feda3f0a3f0d098bf3681d8e6d6469e3&o=&o"
+        },
+        {
+          "hotelid": "h2",
+          "hotelname": "The Savoy",
+          "location": "Paris",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/537024796.webp?k=581c6d4c55694f6dd67514b887230c521148f4958961daaf17d0934590b26052&o=&o"
+        },
+        {
+          "hotelid": "h3",
+          "hotelname": "The Shards",
+          "location": "London",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/499438879.webp?k=7976fdca1d83e53b7f5b14528d442338f6f8366a5f275d91a97285ae19214cd6&o=&o",
+          "id": "c5e7"
+        }
+      ],
+      "phone": ""
+    },
+    {
+      "id": "4f1b",
+      "name": "Gaurang",
+      "email": "gaurang@gmail.com",
+      "password": "1234",
+      "address": "",
+      "bookings": [],
+      "phone": ""
+    },
+    {
+      "id": "c6d5",
+      "name": "Gaurang",
+      "email": "gaurangjagtap@gmail.com",
+      "password": "admin",
+      "address": "",
+      "bookings": [
+        {
+          "hotelid": "h1",
+          "hotelname": "Hilton",
+          "location": "london",
+          "price": "From 200$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/440559871.webp?k=4e8faa6ca857ad337685068976b9fa68feda3f0a3f0d098bf3681d8e6d6469e3&o=&o",
+          "id": "6a60"
+        },
+        {
+          "hotelid": "h2",
+          "hotelname": "The Savoy",
+          "location": "Paris",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/537024796.webp?k=581c6d4c55694f6dd67514b887230c521148f4958961daaf17d0934590b26052&o=&o",
+          "id": "7679"
+        },
+        {
+          "hotelid": "h3",
+          "hotelname": "The Shards",
+          "location": "London",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/499438879.webp?k=7976fdca1d83e53b7f5b14528d442338f6f8366a5f275d91a97285ae19214cd6&o=&o",
+          "id": "c5e7"
+        }
+      ],
+      "phone": ""
+    }
+  ],
+  "hotels": [
+    {
+      "hotelid": "h1",
+      "hotelname": "Hilton",
+      "location": "london",
+      "price": "From 200$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/440559871.webp?k=4e8faa6ca857ad337685068976b9fa68feda3f0a3f0d098bf3681d8e6d6469e3&o=&o",
+      "id": "6a60"
+    },
+    {
+      "hotelid": "h2",
+      "hotelname": "The Savoy",
+      "location": "Paris",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/537024796.webp?k=581c6d4c55694f6dd67514b887230c521148f4958961daaf17d0934590b26052&o=&o",
+      "id": "7679"
+    },
+    {
+      "hotelid": "h3",
+      "hotelname": "The Shards",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/499438879.webp?k=7976fdca1d83e53b7f5b14528d442338f6f8366a5f275d91a97285ae19214cd6&o=&o",
+      "id": "c5e7"
+    },
+    {
+      "hotelid": "h4",
+      "hotelname": "The Taj Mahal Palace",
+      "location": "India",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/533769010.webp?k=3f7b7f8a3136978f8f2860c234925125fae85dc1b02a43ef9bf7ab6618f7c398&o=&o",
+      "id": "47d0"
+    },
+    {
+      "hotelid": "h5",
+      "hotelname": "Holiday Inn",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/364677427.webp?k=9814ab70578259ca2ba8f12e070252b5169aad2a16ef7e37823f0260742ef751&o=&o",
+      "id": "2da8"
+    },
+    {
+      "hotelid": "h6",
+      "hotelname": "The Oberoi",
+      "location": "India",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/358759089.webp?k=101192e84fc525af3556f4a15c9d61ba6e81632621ea7b02af76ade24299ada3&o=&o",
+      "id": "2224"
+    },
+    {
+      "hotelid": "h7",
+      "hotelname": "The Palace Inn",
+      "location": "Paris",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/436710886.webp?k=fd807215198f0ec844929d530848f9142ad231ec2b076b7489af95a7646d07ba&o=&o",
+      "id": "3e5a"
+    },
+    {
+      "hotelid": "h8",
+      "hotelname": "London Palace",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/532756097.webp?k=b5916dc9f390d8b07929cd5e50b1e6f06dae903dcf008989f601b2fc39f3210d&o=&o",
+      "id": "a165"
+    },
+    {
+      "hotelid": "h9",
+      "hotelname": "Conrade",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/450699231.webp?k=ebb9df8eda65eeca39e9bcd6f062ee14a7e80131b6f67cb1aa5ea9e53df475ad&o=&o",
+      "id": "1955"
+    },
+    {
+      "hotelid": "h10",
+      "hotelname": "Harrow Palace",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/196229488.webp?k=9cd5e9b05c6c626e4f7f4298542f8f848a62da5c52c242f87788a930272d0d88&o=&o",
+      "id": "4e8c"
+    },
+    {
+      "hotelid": "h11",
+      "hotelname": "The Richmond",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/165558233.webp?k=649530de016b1f6e43748eff64643666d5e388cb70f10b01c3917f13df23a1d2&o=&o",
+      "id": "5d85"
+    },
+    {
+      "hotelid": "h12",
+      "hotelname": "Sapphire City Hotel",
+      "location": "London",
+      "price": "From 150$ per night",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/442670930.webp?k=f5e2cbb88d632b540298708adf8ae77fdb5de694e2b7e86193429272f3ee7b52&o=&o",
+      "id": "2859"
+    }
+  ]
+}

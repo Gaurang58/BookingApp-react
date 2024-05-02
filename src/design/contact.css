@@ -1,0 +1,93 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-left: 50px;
+}
+
+.banner {
+    background: linear-gradient(to right, #2f67cf, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.banner h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.banner p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.map-wrapper {
+    padding: 20px;
+}
+
+.map-card {
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+}
+
+.map-card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-card-title {
+    margin-top: 0;
+}
+
+.map-card-text {
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+.map-style {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.map-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-card-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.map-card-text {
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.visit-office-link {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    /* Adjusted marginTop value */
+    text-decoration: none;
+    display: inline-block;
+    /* Ensures block-level behavior */
+}
