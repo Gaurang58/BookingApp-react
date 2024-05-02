@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-container{
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hotel-card{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.hotel-image{
+  width: 200px;
+  height: 200px;
+}
+
+.footer-container{
+  margin-top: 80vh;
+  align-items: center;
+  size: 50px;
+  width: 100%;
+  position:absolute
+}
+
+/* Login Style  */
+
+.my-heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 32px !important;
+}
+
+.card-container {
+  max-width: 500px;
+  width: 50%px;
+  height: 550px;
+  margin: 20px auto;
+  padding: 50px 25px;
+}
+
+.card-wrapper {
+  margin: 50px 25px;
+  padding: 25px;
+}
+
+.form-type {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto 10px;
+}
+
+.my-btn {
+  align-self: center;
+  margin: 20px 40%;
+  padding: auto 20px;
+}
+
+.redirect {
+  text-align: center;
+  color: black;
+  border: none;
+  background-color: white;
+}
+
