@@ -1,28 +1,20 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Link } from "react-router-dom";
 
 function Login() {
-  const [user, setUser] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
   const navigate = useNavigate();
 
   const loginUser = () => {
-    const loginData = {
-      email,
-      password,
-    };
+    const loginData = { email, password };
 
     axios
       .get("http://localhost:8000/users")
       .then((res) => {
         const foundUser = res.data.find((u) => u.email === loginData.email);
-        console.log(foundUser);
         if (foundUser && foundUser.password === password) {
           localStorage.setItem("user", JSON.stringify(foundUser));
           localStorage.setItem("isLoggedIn", true);
@@ -46,7 +38,6 @@ function Login() {
           type="text"
           className="validate"
           value={email}
-          name="email"
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
@@ -54,7 +45,6 @@ function Login() {
           type="password"
           className="validate"
           value={password}
-          name="password"
           onChange={(e) => setPassword(e.target.value)}
         />
 
@@ -65,8 +55,8 @@ function Login() {
         >
           Login
         </button>
-        <p className="redirect" bg="primary">
-          Don't have an account ? <Link to="/register">SignUp</Link>
+        <p className="redirect">
+          Don't have an account ? <Link to="/register">Sign Up</Link>
         </p>
       </div>
     </div>
