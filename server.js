@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router("./db.json");
 const middlewares = jsonServer.defaults({
   static: "./build",
 });
@@ -15,5 +15,6 @@ server.use(
 
 server.use(router);
 server.listen(port, () => {
+  // eslint-disable-next-line no-template-curly-in-string
   console.log("Server is running on ${port}");
 });
