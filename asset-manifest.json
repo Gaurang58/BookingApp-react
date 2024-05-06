@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BookingApp-react/static/css/main.999232ca.css",
+    "main.js": "/BookingApp-react/static/js/main.14f79d73.js",
+    "static/js/787.2b95c13b.chunk.js": "/BookingApp-react/static/js/787.2b95c13b.chunk.js",
+    "index.html": "/BookingApp-react/index.html",
+    "main.999232ca.css.map": "/BookingApp-react/static/css/main.999232ca.css.map",
+    "main.14f79d73.js.map": "/BookingApp-react/static/js/main.14f79d73.js.map",
+    "787.2b95c13b.chunk.js.map": "/BookingApp-react/static/js/787.2b95c13b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.999232ca.css",
+    "static/js/main.14f79d73.js"
+  ]
+}
