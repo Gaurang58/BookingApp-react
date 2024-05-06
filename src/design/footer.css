@@ -1,0 +1,27 @@
+.footer-container {
+    background-color: #343a40;
+    color: white;
+    padding: 100px 0;
+}
+
+.footer-link {
+    color: white;
+    margin-right: 15px;
+}
+
+.footer-link:hover {
+    color: #f8f9fa;
+}
+
+.social-icons {
+    margin-left: auto;
+}
+
+.social-link {
+    color: white;
+    margin-left: 10px;
+}
+
+.footer-brand {
+    color: white;
+}

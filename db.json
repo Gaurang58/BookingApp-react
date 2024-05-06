@@ -71,8 +71,86 @@
           "price": "From 150$ per night",
           "image": "https://cf.bstatic.com/xdata/images/hotel/square600/499438879.webp?k=7976fdca1d83e53b7f5b14528d442338f6f8366a5f275d91a97285ae19214cd6&o=&o",
           "id": "c5e7"
+        },
+        {
+          "hotelid": "h5",
+          "hotelname": "Holiday Inn",
+          "location": "London",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/364677427.webp?k=9814ab70578259ca2ba8f12e070252b5169aad2a16ef7e37823f0260742ef751&o=&o",
+          "id": "2da8"
+        },
+        {
+          "hotelid": "h6",
+          "hotelname": "The Oberoi",
+          "location": "India",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/358759089.webp?k=101192e84fc525af3556f4a15c9d61ba6e81632621ea7b02af76ade24299ada3&o=&o",
+          "id": "2224"
         }
       ],
+      "phone": ""
+    },
+    {
+      "id": "d5f4",
+      "name": "Gaurang",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "address": "",
+      "bookings": [
+        {
+          "hotelid": "h1",
+          "hotelname": "Hilton",
+          "location": "london",
+          "price": "From 200$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/440559871.webp?k=4e8faa6ca857ad337685068976b9fa68feda3f0a3f0d098bf3681d8e6d6469e3&o=&o",
+          "id": "6a60"
+        },
+        {
+          "hotelid": "h3",
+          "hotelname": "The Shards",
+          "location": "London",
+          "price": "From 150$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/499438879.webp?k=7976fdca1d83e53b7f5b14528d442338f6f8366a5f275d91a97285ae19214cd6&o=&o",
+          "id": "c5e7"
+        }
+      ],
+      "phone": ""
+    },
+    {
+      "id": "9e19",
+      "name": "Gaurang",
+      "email": "gaurangjagtap@gmail.com",
+      "password": "admin",
+      "address": "",
+      "bookings": [],
+      "phone": ""
+    },
+    {
+      "id": "2f84",
+      "name": "Navin",
+      "email": "new@gmail.com",
+      "password": "admin",
+      "address": "",
+      "bookings": [
+        {
+          "hotelid": "h1",
+          "hotelname": "Hilton",
+          "location": "london",
+          "price": "From 200$ per night",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/square600/440559871.webp?k=4e8faa6ca857ad337685068976b9fa68feda3f0a3f0d098bf3681d8e6d6469e3&o=&o",
+          "id": "6a60"
+        }
+      ],
+      "phone": ""
+    },
+    {
+      "id": "ce2b",
+      "name": "Gaurang",
+      "email": "gaurangjagtap@gmail.com",
+      "password": "admin",
+      "address": "",
+      "bookings": [],
       "phone": ""
     }
   ],

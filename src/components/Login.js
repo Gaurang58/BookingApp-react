@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [user, setUser] = useState("");
@@ -12,23 +13,21 @@ function Login() {
   const navigate = useNavigate();
 
   const loginUser = () => {
-
     const loginData = {
       email,
-      password
-    }
-
+      password,
+    };
 
     axios
       .get("http://localhost:8000/users")
       .then((res) => {
         const foundUser = res.data.find((u) => u.email === loginData.email);
-        console.log(foundUser)
+        console.log(foundUser);
         if (foundUser && foundUser.password === password) {
           localStorage.setItem("user", JSON.stringify(foundUser));
           localStorage.setItem("isLoggedIn", true);
           toast.success("Login Success.");
-          navigate("/")
+          navigate("/");
         } else {
           toast.error("Invalid Credentials.");
         }
@@ -66,7 +65,7 @@ function Login() {
         >
           Login
         </button>
-        <p className="redirect">
+        <p className="redirect" bg="primary">
           Don't have an account ? <Link to="/register">SignUp</Link>
         </p>
       </div>
