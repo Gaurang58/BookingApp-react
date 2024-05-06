@@ -7,7 +7,7 @@ function Contact() {
   const locations = [
     {
       title: "London Office",
-      address: "35 MARYLEBONE ROAD LONDON NW1 5LS",
+      address: "35 Baker Street London NW1 5LS",
       schedule:
         "DURING SEMESTER TIME\nMON - FRI: 8AM - 9PM\nSAT - SUN: 8AM - 6PM",
       telephone: "+44 (0) 20 7911 5000",
